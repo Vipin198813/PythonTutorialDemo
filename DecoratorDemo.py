@@ -1,5 +1,4 @@
 import time
-
 def timer_func(func):
     def time_test_func():
         start = time.time()
