@@ -1,3 +1,0 @@
-This is my v1 version
-I want to add this file in commit 2
-Now, I am learning git diff command
