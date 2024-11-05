@@ -60,7 +60,27 @@ print(str2[-1:-13:-2])  # Output: "!lo olH" (characters from the end stepping ba
 
 print("\n")
 print("$$$$$$$$$$$ STRING SLICING EXAMPLES $$$$$$$$$$$$$$$$$$")
+#str[Start:Stop:Step]
+#Note:
+# If Step value is positive, then move in forward direction.
+# If Step value is negative, then move in backward direction.
 S = "PYTHON PROGRAMMING"
+print(S[::-2])   # We have to move in backward direction i.e.: GIMROPNHY
+print(S[2:3])    #If step value is not provided, then by default it is considered as 1 only. #T
+print(S[2:3:-1])  #As per start and stop we have to move in forward direction, but as per step we have to move in back
+                  # backward direction. There is mismatch in direction, so it will return an empty string.
+print(S[-15:-16])  #Start and stop indicate the movement in backward direction, but as the step value is not provided then we consider
+                    # to move in forward direction. Now there is a mismatch in the movement then it will again return empty string. \
+print(S[-15:-16:-1]) # H
+print(S[-6:7:-2])    #AGR
+print(S[4:-8])         #ON PRO
+print(S[9:-10])      #Return an empty string
+print(S[9:-10:-1])      #O
+print(S[22::-6])        #GRN
+print(S[2:-22:-1])      #TYP
+print(S[15::-2])        #IMROPNHY
+print(S[-15::-2])       #HY
+print(S[7:-1])          #PROGRAMMIN
 
 
 
